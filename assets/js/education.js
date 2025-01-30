@@ -2,7 +2,7 @@ AOS.init();
 
 // MOOCs Cards
 
-const moocs = document.querySelector(".moocs");
+/* const moocs = document.querySelector(".moocs");
 const moocscards = [
   {
     title: "Data Science",
@@ -66,9 +66,9 @@ const moocscards = [
     moocLink:
       "https://www.udacity.com/course/data-structures-and-algorithms-nanodegree--nd256",
   },
-];
+]; */
 
-const experience = [
+/* const experience = [
   {
     img: "assets/images/education-page/c1.png",
   },
@@ -133,7 +133,7 @@ const showCards = () => {
 };
 document.addEventListener("DOMContentLoaded", showCards);
 
-/* Badges*/
+Badges
 
 const bagdes = document.querySelector(".badges");
 const badgesection = [
@@ -167,7 +167,7 @@ const showCards1 = () => {
   );
   bagdes.innerHTML = output;
 };
-document.addEventListener("DOMContentLoaded", showCards1);
+document.addEventListener("DOMContentLoaded", showCards1); */
 
 /* Timeline Section*/
 

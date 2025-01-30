@@ -6,11 +6,11 @@ particlesJS("particles-js", {
       value: 140,
       density: {
         enable: true,
-        value_area: 800,
+        value_area: 1000,
       },
     },
     color: {
-      value: ["#2EB67D", "#ECB22E", "#E01E5B", "#36C5F0"],
+      value: ["#BCBCBC", "#999999", "#EEEEEE", "#36C5F0"],
     },
     shape: {
       type: "circle",

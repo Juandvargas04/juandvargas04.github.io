@@ -5,32 +5,35 @@ AOS.init();
 const experiencecards = document.querySelector(".experience-cards");
 const exp = [
   {
-    title: "Software Development Intern",
-    cardImage: "assets/images/experience-page/flipkart.jpg",
-    place: "Flipkart",
-    time: "(May, 2020 - present)",
-    desp: "<li>Worked to migrate Flipkart lite’s product page to AMP pages so that they load up instantly.</li> <li>Made changes in the current progressive web app of Flipkart to react to different actions performed on AMP page.</li> <li>Created a node module called “fk-amp” which abstracts all the files and middlewares and can be easily imported and used from express server.</li>",
+    title: "Renovación de closets – Apartamento en Laureles",
+    cardImage: "assets/images/experience-page/closets.jpg",
+    place: "Medellín",
+    time: "(Dic 2024)",
+    desp: "Se realizó el desmonte de tres closets antiguos en madera triple entamborada que se querían renovar con un aglomerado nuevo, y se diseñaron los nuevos muebles.",
+    link: "https://arquitecturavb.blogspot.com/2025/01/renovacion-de-closets-apartamento-en.html",
   },
   {
-    title: "Student Developer",
-    cardImage: "assets/images/experience-page/gsoc.png",
-    place: "Google Summer Of Code",
-    time: "(Mar - Aug, 2019)",
-    desp: "<li>Worked with MOZILLA as a part of Google Summer Of Code.</li><li>Worked on Extension Activity Monitor which is a privileged extension for Firefox that uses the activityLog API (privileged API) to monitor the activities of the other installed extensions.</li><li>The activityLog API listens for logs from other installed extensions.</li>",
+    title: "Local Comercial Xiaomi – Clinica del play",
+    cardImage: "assets/images/experience-page/local_xiaomi.png",
+    place: "Centro comercial Florida, Medellín",
+    time: "(Ago - Oct, 2024)",
+    desp: "Este proyecto, ubicado en el Parque Comercial Florida en Medellín, surgió con el objetivo de integrar dos marcas en un solo local comercial: Xiaomi Medellín y Clínica del Play. Mi responsabilidad fue conceptualizar y diseñar un espacio que fusionara ambas identidades de manera coherente, respetando sus valores y creando una experiencia única para los clientes. El corazón del proyecto fue desarrollar una propuesta que mantuviera la esencia de cada marca, ofreciendo un ambiente funcional y atractivo para los usuarios.",
+    link: "https://arquitecturavb.blogspot.com/2025/01/local-comercial-xiaomi-clinica-del-play.html",
   },
   {
-    title: "Research Intern",
-    cardImage: "assets/images/experience-page/IIT_Bombay.jpg",
-    place: "IIT, Bombay",
-    time: "(Dec, 19 - Jan, 20)",
-    desp: "<li>Worked on the project “LTI (Learning Tools Interoperability) 2.0 standards Implementation for ekShiksha.</li><li>Designed a software that would help faculty to create a quiz using the questions from the database based on his/her choice of topics and he should be provided with various facilities and options to create a quiz of his choice.</li>",
+    title: "Auxiliar de diseño – Ben Fatto S.A.S",
+    cardImage: "assets/images/experience-page/ben_fatto.png",
+    place: "Medellín",
+    time: "(Jun - Julio, 2024)",
+    desp: "Ben Fatto (benfattosas.com) es una empresa especializada en el diseño e instalación de carpintería arquitectónica industrializada. Se enfocan en la creación y montaje de cocinas integrales, closets y muebles de baño, adoptando un concepto de organización racional. Su propuesta se destaca por ofrecer las mejores distribuciones, calidad y precios en cada uno de sus proyectos.",
+    link: "https://arquitecturavb.blogspot.com/2025/01/auxiliar-de-diseno-ben-fatto-sas.html",
   },
 ];
 
 const showCards2 = () => {
   let output = "";
   exp.forEach(
-    ({ title, cardImage, place, time, desp }) =>
+    ({ title, cardImage, place, time, desp, link }) =>
       (output += `        
     <div class="col gaap" data-aos="fade-up" data-aos-easing="linear" data-aos-delay="100" data-aos-duration="400"> 
       <div class="card card1">
@@ -47,6 +50,9 @@ const showCards2 = () => {
             <ol>
               ${desp}
             </ol>
+            <p class="meta">
+              <a href="${link}" target="_blank" rel="noopener noreferrer">Mas información</a>
+            </p>
           </header>
         </article>
       </div>
@@ -62,28 +68,22 @@ document.addEventListener("DOMContentLoaded", showCards2);
 const volunteership = document.querySelector(".volunteership");
 const volunteershipcards = [
   {
-    title: "GirlScript Summer Of Code 2020",
-    cardImage: "assets/images/experience-page/1.jpg",
+    title: "Autocad",
+    cardImage: "assets/images/experience-page/autocad_logo.png",
     description:
-      "Responsible for handling the projects GirlScript App and GirlScript Website Boilerplate.",
+      "",
   },
   {
-    title: "StudentCode-in 2020",
-    cardImage: "assets/images/experience-page/2.jpg",
+    title: "Revit",
+    cardImage: "assets/images/experience-page/revit_logo.png",
     description:
-      "Responsible for handling open source contributions for the project Awesome Developer Portfolio.",
+      "",
   },
   {
-    title: "PClub Summer Of Code 2020",
-    cardImage: "assets/images/experience-page/3.jpg",
+    title: "Twinmotion",
+    cardImage: "assets/images/experience-page/twinmotion_logo.png",
     description:
-      "Mentoring for the projects Deep Pixel, AutoVaidya, Just Resume and Doc2pen.",
-  },
-  {
-    title: "Hakin-Codes",
-    cardImage: "assets/images/experience-page/4.jpg",
-    description:
-      "Mentoring for the open source projects Deeppixel, Awesome Developer Portfolios and Doc2Pen.",
+      "",
   },
 ];
 
@@ -92,9 +92,9 @@ const showCards = () => {
   volunteershipcards.forEach(
     ({ title, cardImage, description }) =>
       (output += `        
-      <div class="card volunteerCard" data-aos="fade-down" data-aos-easing="linear" data-aos-delay="100" data-aos-duration="600" style="height: 550px;width:400px">
+      <div class="card volunteerCard" data-aos="fade-down" data-aos-easing="linear" data-aos-delay="100" data-aos-duration="600" style="height: 300px;width:250px">
       
-      <img src="${cardImage}" height="250" width="65" class="card-img" style="border-radius:10px">
+      <img src="${cardImage}" height="200" width="20" class="card-img" style="border-radius:10px">
       <div class="content">
           <h2 class="volunteerTitle">${title}</h2><br>
           <p class="copy">${description}</p></div>
@@ -108,12 +108,12 @@ document.addEventListener("DOMContentLoaded", showCards);
 
 // Hackathon Section
 
-const hackathonsection = document.querySelector(".hackathon-section");
+/* const hackathonsection = document.querySelector(".hackathon-section");
 const mentor = [
   {
     title: "The Uplift Project",
     subtitle: "Mentor",
-    image: "assets/images/experience-page/uplift.png",
+    image: "/home/agvargasb/Documentos/JD/Web_Personal/assets/images/experience-page/autocad_logo.jpg",
     desp: "I would be responsible for guiding 100s of participants across the globe in their first steps towards Applied Data Science and building end-to-end machine learning projects.",
     href: "https://uplift.girlscript.tech/",
   },
@@ -198,7 +198,7 @@ const mentor = [
     title: "Recess Hacks",
     subtitle: "Mentor",
     image: "assets/images/experience-page/recess.png",
-    desp: "Recess Hacks is an upcoming hackathon for high school students in the Greater Toronto Area that strives to encourage innovation among high school students and get involved in technology.",
+    desp: "Recess Hacks is  an upcoming hackathon for high school students in the Greater Toronto Area that strives to encourage innovation among high school students and get involved in technology.",
     href: "https://recesshacks.com/",
   },
   {
@@ -215,9 +215,9 @@ const mentor = [
     desp: "NHacks VI was a hackathon that aimed to encourage students everywhere to develop skills in computer science by creating tangible products that they're proud of. It initially started as Michigan's largest high school hackathon.",
     href: "https://nhacks-vi.devpost.com/",
   },
-];
+]; */
 
-const showCards3 = () => {
+/* const showCards3 = () => {
   let output = "";
   mentor.forEach(
     ({ title, image, subtitle, desp, href }) =>
@@ -237,4 +237,4 @@ const showCards3 = () => {
   );
   hackathonsection.innerHTML = output;
 };
-document.addEventListener("DOMContentLoaded", showCards3);
+document.addEventListener("DOMContentLoaded", showCards3); */
