@@ -1052,6 +1052,23 @@ outline: none;
   transform: rotateZ(-90deg);
   animation: shake 0.3s ease 0.5s infinite;
 }
+#lnch1 :hover{
+  cursor: pointer;
+  outline: none;
+  
+}
+#lnch1 {
+font-size: 25px;
+color: #fff;
+line-height: 1;
+/* padding: 20px 25px; */
+text-align: center;
+border-radius: 50px;
+border-style: none;
+transition: 0.5s ease background-color, 0.5s ease box-shadow;
+background: #bb86fc;
+}
+
 @keyframes shake {
   10%,
   90% {
