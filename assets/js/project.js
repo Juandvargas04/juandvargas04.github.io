@@ -46,12 +46,12 @@ const projects = [
     Githublink: "https://arquitecturavb.blogspot.com/2025/01/escritorio-biblioteca-apartamento.html",
   },
   {
-    title: "Proximamente...",
-    cardImage: "assets/images/project-page/under_construction.png",
+    title: "Ágora del Río",
+    cardImage: "assets/images/project-page/agora_del_rio.png",
     description: "",
     tagimg: "",
-    Previewlink: "",
-    Githublink: "",
+    Previewlink: "https://arquitecturavb.blogspot.com/2025/06/agora-del-rio.html",
+    Githublink: "https://arquitecturavb.blogspot.com/2025/06/agora-del-rio.html",
   },
 ];
 

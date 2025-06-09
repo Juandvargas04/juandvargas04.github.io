@@ -5,14 +5,6 @@ AOS.init();
 const experiencecards = document.querySelector(".experience-cards");
 const exp = [
   {
-    title: "Renovación de closets – Apartamento en Laureles",
-    cardImage: "assets/images/experience-page/closets.jpg",
-    place: "Medellín",
-    time: "(Dic 2024)",
-    desp: "Se realizó el desmonte de tres closets antiguos en madera triple entamborada que se querían renovar con un aglomerado nuevo, y se diseñaron los nuevos muebles.",
-    link: "https://arquitecturavb.blogspot.com/2025/01/renovacion-de-closets-apartamento-en.html",
-  },
-  {
     title: "Local Comercial Xiaomi – Clinica del play",
     cardImage: "assets/images/experience-page/local_xiaomi.png",
     place: "Centro comercial Florida, Medellín",
@@ -27,6 +19,14 @@ const exp = [
     time: "(Jun - Julio, 2024)",
     desp: "Ben Fatto (benfattosas.com) es una empresa especializada en el diseño e instalación de carpintería arquitectónica industrializada. Se enfocan en la creación y montaje de cocinas integrales, closets y muebles de baño, adoptando un concepto de organización racional. Su propuesta se destaca por ofrecer las mejores distribuciones, calidad y precios en cada uno de sus proyectos.",
     link: "https://arquitecturavb.blogspot.com/2025/01/auxiliar-de-diseno-ben-fatto-sas.html",
+  },
+  {
+    title: "Renovación de closets – Apartamento en Laureles",
+    cardImage: "assets/images/experience-page/closets.jpg",
+    place: "Medellín",
+    time: "(Dic 2024)",
+    desp: "Se realizó el desmonte de tres closets antiguos en madera triple entamborada que se querían renovar con un aglomerado nuevo, y se diseñaron los nuevos muebles.",
+    link: "https://arquitecturavb.blogspot.com/2025/01/renovacion-de-closets-apartamento-en.html",
   },
 ];
 
